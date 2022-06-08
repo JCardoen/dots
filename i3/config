@@ -43,7 +43,6 @@ smart_gaps $i3-wm.gaps.smart
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
-# exec --no-startup-id picom -b --config $HOME/.config/picom.conf
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id ~/.config/polybar/launch.sh
 
