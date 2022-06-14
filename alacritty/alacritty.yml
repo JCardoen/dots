@@ -204,7 +204,6 @@ colors:
     cyan:    '0x8ec07c'
     white:   '0xebdbb2'
 
-
 selection:
   # This string contains all characters that are used as separators for
   # "semantic words" in Alacritty.

@@ -45,6 +45,7 @@ smart_gaps $i3-wm.gaps.smart
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id nitrogen --restore
 exec --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id picom -f --xrender-sync-fence
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
