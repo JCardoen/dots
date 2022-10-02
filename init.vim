@@ -9,7 +9,7 @@ Plug 'neoclide/coc.nvim' " Syntax
 Plug 'rstacruz/vim-closer' " Autoclose brackets and what nots
 Plug 'ryanoasis/vim-devicons' " Icons
 call plug#end()
-:colorscheme gruvbox
+:colorscheme jellybeans 
 set nocompatible
 set showmatch
 set ignorecase

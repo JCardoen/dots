@@ -45,7 +45,7 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 6
+    x: 5
     y: 5 
 
   # Spread additional padding evenly around the terminal content.
@@ -110,10 +110,10 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Jetbrains Mono
+    family: Iosevka Nerd Font Mono 
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Regular 
 
   # Bold font face
   bold:
@@ -149,7 +149,7 @@ font:
     style: Bold Italic
 
   # Point size
-  size: 9
+  size: 7 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
@@ -173,36 +173,35 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: false
 
-# Colors (Gruvbox dark)
+# Colors (Wombat)
 colors:
   # Default colors
   primary:
-    # hard contrast: background = '0x1d2021'
-    background: '0x282828'
-    # soft contrast: background = '0x32302f'
-    foreground: '0xebdbb2'
+    background: '0x1f1f1f'
+    foreground: '0xe5e1d8'
 
   # Normal colors
   normal:
-    black:   '0x282828'
-    red:     '0xcc241d'
-    green:   '0x98971a'
-    yellow:  '0xd79921'
-    blue:    '0x458588'
-    magenta: '0xb16286'
-    cyan:    '0x689d6a'
-    white:   '0xa89984'
+    black:   '0x000000'
+    red:     '0xf7786d'
+    green:   '0xbde97c'
+    yellow:  '0xefdfac'
+    blue:    '0x6ebaf8'
+    magenta: '0xef88ff'
+    cyan:    '0x90fdf8'
+    white:   '0xe5e1d8'
 
   # Bright colors
   bright:
-    black:   '0x928374'
-    red:     '0xfb4934'
-    green:   '0xb8bb26'
-    yellow:  '0xfabd2f'
-    blue:    '0x83a598'
-    magenta: '0xd3869b'
-    cyan:    '0x8ec07c'
-    white:   '0xebdbb2'
+    black:   '0xb4b4b4'
+    red:     '0xf99f92'
+    green:   '0xe3f7a1'
+    yellow:  '0xf2e9bf'
+    blue:    '0xb3d2ff'
+    magenta: '0xe5bdff'
+    cyan:    '0xc2fefa'
+    white:   '0xffffff'
+
 
 selection:
   # This string contains all characters that are used as separators for
